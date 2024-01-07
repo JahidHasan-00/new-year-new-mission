@@ -15,11 +15,10 @@ h2,h1{
 
  /* banner section */
 .container{
-    background-image: url('images/background/Banner-Image.png');
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/background/Banner-Image.png');
     max-width: 1320px;
     margin: 0 auto;
     height: 600px;
-    border-radius: 16px;
     border-radius: 16px;
     margin-top: 50px;
 }
