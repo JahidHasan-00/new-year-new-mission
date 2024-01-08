@@ -18,7 +18,6 @@ h2,h1{
 .container{
     max-width: 1320px;
     margin: 0 auto;
-    /* height: 600px; */
     border-radius: 16px;
 }
 .btn-primary{
@@ -40,6 +39,10 @@ h2,h1{
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
+}
+.our-awesome-portfolio-title{
+    color: #070211;
+    font-size: 48px;
 }
 
  /* banner section */
@@ -140,17 +143,58 @@ h2,h1{
     background: #F00;
 }
 
-/*  */
+/* The-best-gift style*/
 .the-best-gifts-main{
     margin-top: 120px;
-}
-.our-awesome-portfolio-title{
-    color: #070211;
-    font-size: 48px;
 }
 
 .gift-items{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+}
+
+/* Subscribe Newsletter */
+.newsletter-title{
+    margin-top: 40px;
+}
+.subscribe-newsletter-main{
+    margin-top: 120px;
+}
+.subscribe-newsletter{
+    padding: 80px 212px;
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+.newsletter-description{
+    margin: 22px 0 48px 0;
+}
+.subscribe-input-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email-input-field{
+    padding: 25px 0 25px 30px;
+    border-radius: 50px 0 0 50px;
+    width: 438px;
+    border: 0;
+}
+#subscribe{
+    background-color: #F00;
+    margin-left: 0;
+    padding: 21px 56px;
+    border-radius: 0 50px 50px 0;
+    border: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+}
+::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
 }
