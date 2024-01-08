@@ -13,13 +13,25 @@ h2,h1{
     font-size: 72px;
     font-weight: 900;
 }
- /* banner section */
 .container{
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/background/Banner-Image.png');
     max-width: 1320px;
     margin: 0 auto;
     /* height: 600px; */
     border-radius: 16px;
+}
+.btn-primary{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    background: 0;
+    text-transform: uppercase;
+}
+ /* banner section */
+.banner-main{
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/background/Banner-Image.png');
+    
     margin-top: 50px;
 }
 .banner{
@@ -35,7 +47,7 @@ h2,h1{
 }
 
 /* Discount section */
-section{
+.discount{
     text-align: center;
     margin: 120px 158.1px 120px 159px;
 }
@@ -62,4 +74,30 @@ section{
     font-size: 48px;
     font-weight: 700;
     margin: 16px 0 48px 0;
+}
+
+/*  */
+.midnight-main{
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/background/Vectorrr.png');
+    
+}
+.midnight-party-container{
+    display: flex;
+    align-items: center;
+    padding: 68.11px 138px 67.23px 126px;
+    gap: 39.17px;
+}
+.midnight{
+    text-align: left;
+    max-width: 697px;
+}
+.midnight-party-description{
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 24px
+}
+.midnight > button{
+    margin: 48px 0 0 32px;
 }
