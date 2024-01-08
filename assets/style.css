@@ -76,7 +76,7 @@ h2,h1{
     margin: 16px 0 48px 0;
 }
 
-/*  */
+/* Welcome to midnight party */
 .midnight-main{
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('./images/background/Vectorrr.png');
     
@@ -100,4 +100,29 @@ h2,h1{
 }
 .midnight > button{
     margin: 48px 0 0 32px;
+}
+
+/* Place New Park Hotel section */
+.new-park-hotel-main{
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    margin-top: 120px;;
+}
+.new-park-hotel-address{
+    padding: 100px 385px 110px 386px;
+    text-align: center;
+}
+.address{
+    color: #F00;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+.new-park-hotel-titles{
+    color: #070211;
+}
+.new-park-hotel-address > button{
+    margin-top: 48px;
+    padding: 16px 32px;
+    border-radius: 8px;
+background: #F00;
 }
